@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".PinActivity">
+    <LinearLayout
+
+        android:id="@+id/layout_pin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_gradient"
+        tools:context=".PinActivity">
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="100dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/numOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_ring"
+                />
+
+            <ImageView
+                android:id="@+id/numTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_ring"
+                android:layout_marginStart="30dp"/>
+
+            <ImageView
+                android:id="@+id/numThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_ring"
+                android:layout_marginStart="30dp"/>
+
+            <ImageView
+                android:id="@+id/numFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_ring"
+                android:layout_marginStart="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_marginHorizontal="40dp"
+            >
+
+            <Button
+                android:id="@+id/buttonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp">
+
+            <Button
+                android:id="@+id/buttonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp">
+
+            <Button
+                android:id="@+id/buttonSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp">
+
+            <Button
+                android:id="@+id/buttonCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:paddingTop="6dp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/ic_phone"/>
+
+            <Button
+                android:id="@+id/buttonZero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/buttonDel"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/ic_del"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/underlineChange"
+            android:textColor="#04b1cf"
+            android:id="@+id/textViewChange"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_sms"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/background_gradient"
+        tools:context=".PinActivity">
+        <EditText
+            android:id="@+id/fieldVerificationCode"
+            android:inputType="textPassword"
+            android:layout_marginHorizontal="60dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:hint="Code"/>
+
+        <Button
+            android:id="@+id/buttonVerifyPhone"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="60dp"
+            android:background="@drawable/button_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти"/>
+
+        <Button
+            android:id="@+id/buttonResend"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отправить СМС повторно"/>
+    </LinearLayout>
+
+</LinearLayout>

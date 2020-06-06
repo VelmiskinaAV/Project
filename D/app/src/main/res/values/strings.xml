@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Diplom</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+
+    <string name="underlineRegistration"><u>Еще не зарегистрированы? Зарегистрироваться</u></string>
+    <string name="underlineEnter"><u>Уже зарегистрированы? Авторизироваться</u></string>
+    <string name="underlineChange"><u>Сменить пользователя</u></string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Вельмискина A.</string>
+    <string name="nav_header_subtitle">Арина Владимировна</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_phone">На этот номер приходят пароли для подтверждения операций по карте</string>
+    <string name="text_email">Получайте больше индивидуальных предложений и информации о новых услугах и продуктах банка</string>
+
+    <string name="menu_home">Состояние счета</string>
+    <string name="menu_gallery">Персональные данные</string>
+    <string name="menu_slideshow">История платежей</string>
+    <string name="menu_tools">Настройки</string>
+    <string name="menu_share">Сменить пользователя</string>
+    <string name="menu_send">Выход</string>
+</resources>
